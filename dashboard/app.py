@@ -203,3 +203,4 @@ def update_dashboard(n_clicks, city_name):
     except Exception as e:
         return (dbc.Alert(f"❌ An unexpected error occurred: {e}", color="danger"), 
                 empty_temp, empty_humid, empty_wind, empty_table)
+server = app.server
