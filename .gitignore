@@ -1,0 +1,16 @@
+# .gitignore file
+
+# Virtual Environment files
+/venv
+/.venv
+
+# API Keys aur Cache
+.env
+/cache
+
+# Python compiled files
+__pycache__/
+*.pyc
+
+# Dash/Plotly files
+*.log
